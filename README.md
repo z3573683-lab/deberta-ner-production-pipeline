@@ -109,6 +109,13 @@ Combined with a linear warmup scheduler and gradient clipping (`max_norm=1.0`) f
 
 ---
 
+### ENTITY-LEVEL CLASSIFICATION REPORT (seqeval)
+<p align="center">
+  <img src="Classification_Report" width="600" alt="Classification Report" />
+</p>
+
+
+
 ## 🚀 Deployment | النشر
 
 **English:** Deployed as a live, interactive Gradio app on Hugging Face Spaces. The deployment pipeline enforces:
