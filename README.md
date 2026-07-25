@@ -126,7 +126,7 @@ Combined with a linear warmup scheduler and gradient clipping (`max_norm=1.0`) f
 🔗 **[huggingface.co/spaces/MohamedBelal-AI/ner-entity-recognition](https://huggingface.co/spaces/MohamedBelal-AI/ner-entity-recognition)**
 
 <p align="center">
-  <img src="ner_assets/live_app_screenshot.png" width="800" alt="Live Application" />
+  <img src="live_app_screenshot.png" width="800" alt="Live Application" />
 </p>
 
 ---
