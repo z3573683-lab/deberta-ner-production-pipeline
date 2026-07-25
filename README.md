@@ -100,7 +100,7 @@ Combined with a linear warmup scheduler and gradient clipping (`max_norm=1.0`) f
 ### Confusion Matrix (Token-Level, True Label Names) | مصفوفة الالتباس بالأسماء الحقيقية
 
 <p align="center">
-  <img src="ner_assets/confusion_matrix.png" width="600" alt="Confusion Matrix" />
+  <img src="confusion_matrix.png" width="600" alt="Confusion Matrix" />
 </p>
 
 **English:** The primary confusion source is structural ambiguity between `LOC` and `ORG` (65 LOC→ORG, 46 ORG→LOC misclassifications) — a known, natural overlap in real-world text (e.g. "Manchester" as a city vs. a football club name).
