@@ -46,7 +46,7 @@ There is no hosted demo at the moment. You can run it locally (see below).
 4. **Evaluation.** The test set is used once, at the end: normal copy, lowercased copy, confusion matrix and a read-through of real errors.
 5. **Demo.** `app.py` splits text the way CoNLL does (punctuation separated from words), so a comma never ends up inside a highlighted entity.
 
-![Training curves](assets/training-curves.png)
+![Training curves](assets/training_curves.png)
 
 One thing that cost me time: in my Colab runtime the model loaded in float16 by default, and AdamW then produced NaN right after the first update. Loading with `dtype=torch.float32` fixed it, and the notebook now asserts it before training.
 
@@ -154,7 +154,7 @@ F1 على الاختبار لكل نوع:
 4. **التقييم.** تُستخدم مجموعة الاختبار مرة واحدة في النهاية: النسخة العادية والنسخة بالحروف الصغيرة، ومصفوفة الإرباك، وقراءة أخطاء حقيقية.
 5. **التطبيق.** يقطّع `app.py` النص كما يفعل CoNLL (علامات الترقيم منفصلة عن الكلمات)، فلا تدخل الفاصلة في الكيان المظلَّل.
 
-![منحنيات التدريب](assets/training-curves.png)
+![منحنيات التدريب](assets/training_curves.png)
 
 شيء أخذ مني وقتاً: في بيئة Colab عندي حُمّل النموذج بدقة float16 افتراضياً، فأنتج AdamW قيمة NaN بعد أول تحديث مباشرة. وحلّ المشكلة تحميله بـ `dtype=torch.float32`، والـ notebook يتحقق من ذلك قبل التدريب.
 
